@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-menu li a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+
+section {
+  height: 100vh;
+  padding-top: 80px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+
+
+.navbar-home {
+  background-color: steelblue;
+}
+.navbar-about {
+  background-color: seagreen;
+}
+.navbar-projects {
+  background-color: darkorange;
+}
+.navbar-contact {
+  background-color: rebeccapurple;
+}
+
+
+.section-home {
+  background-color: #e0f0ff;
+}
+.section-about {
+  background-color: #e0ffe5;
+}
+.section-projects {
+  background-color: #fff3cd;
+}
+.section-contact {
+  background-color: #f3e5f5;
+}
